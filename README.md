@@ -7,7 +7,7 @@ These are all the scripts we (Ashkan Arabi and Michael Straus) wrote and used du
 2. You plan to use something close to Convolutional Neural Networks for the classification task.
 3. You don't mind dirty and unroganized code.
 
-The code has its quirks that can be hard for outsiders to understand. If you have any questions, feel free to email any of us. 
+The code has its quirks that can be hard for outsiders to understand. If you have any questions, feel free to email any of us (below). 
 
 ## File Structure
 ### Ipynb files
@@ -34,4 +34,7 @@ Most of the data we used for testing our models can be found [here](https://www.
 ## Final Words
 We would be very surprised if anyone starts using these scripts and gets them to work on their own. If anything is wrong **please reach out!** 
 
-Ashkan is the direct point of contact (ashkan.arabim@gmail.com), but if that doesn't work, try contacting Michael (mjstraus2304@gmail.com).
+## Live Script
+In order to run the live script, follow instructions in the "Polished Nexus5 Setup Tips" document.
+
+Feel free to contact Ashkan (ashkan.arabim@gmail.com) or Michael (mjstraus2304@gmail.com) with any questions.
