@@ -16,10 +16,12 @@ The `ipynb` scripts are meant to be run on Google Colab connected to Google Driv
 `REU` has several important subdirectories:
 1. `csi_data_all`: stores all dataset folders
     1. `csi_data_xx`: contains a folder for each of the gestures used in data collection
+        1. `gesture`
+            1. `gesture_xxx.pcap`: raw `pcap` files extracted from the smartphone. These are turned into numpy arrays using the `csiread` Python package. Take a look at our scripts, or their GitHub repo.
     2. `csi_numpy`: *generated automatically by model training scripts*: contains one `.npy` file for any dataset accessed by model training scripts. These files are generated because it takes forever to load many small files from Google Drive. All contents use preprocessing v3.
-    3. `csi_numpy_unchopped`: *also generated* contains data that is not trimmed to 20 packets (hence, has 50 packets per sample).
-    4. `csi_numpy_vX`: *generated* same as above, but data is preprocessed using vX method. (X is a number starting from 4)
-    5. `csi_numpy_vX_unchopped`: You see the pattern...
+    4. `csi_numpy_unchopped`: *also generated* contains data that is not trimmed to 20 packets (hence, has 50 packets per sample).
+    5. `csi_numpy_vX`: *generated* same as above, but data is preprocessed using vX method. (X is a number starting from 4)
+    6. `csi_numpy_vX_unchopped`: You see the pattern...
 2. `paper_charts`: stores model outputs and confusion matrices after running the `test_impact_factors.ipynb` script. Additionally, it'll contain bar charts for comparing different scenarios after running `generate_barcharts.ipynb`.
 3. The rest isn't wired to any script. They just contain other scripts / files that we used. Feel free to move anything you don't like.
 
