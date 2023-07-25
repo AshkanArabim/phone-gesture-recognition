@@ -1,0 +1,17 @@
+--- running the custom_model script does the following: ---
+
+defines the model and all the tunable hyperparameters
+loads data from the "csi_data_all" folder --> make sure you have the right symbolic link called "REU" for the root directory containing "csi_dta_all"
+if the data hasn't been combined into one large '.npy' file, it will do that
+if a '.npy' file exists, it loads it
+the rest is just model training and testing
+
+the details should be self-explanatory from the code. if you have any trouble, just reach out to Ashkan or Michael (emails provided in README.md)
+
+--- to load a custom model ---
+replace the 'custom_model' variable with your architecture
+adjust hyperparameters in 'create_and_run'
+run the whole notebook
+
+--- using draw_metrics.ipynb ---
+make sure to run test_impact_factors.ipynb first so that you have the source json files for generating the figures.
