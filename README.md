@@ -35,7 +35,6 @@ Most of the data we used for testing our models can be found [here](https://www.
 In order to run the live script, follow instructions in the "Polished Nexus5 Setup Tips" document.
 
 ## Final Words
-We would be very surprised if anyone starts using these scripts and gets them to work on their own. If anything is wrong **please reach out!** 
-
+These scripts can be buggy and errors from them are often silent, meaning you may not recognize problems until you're much farther down the line. If anything is wrong **please reach out!** 
 
 Feel free to contact Ashkan (ashkan.arabim@gmail.com) or Michael (mjstraus2304@gmail.com) with any questions.
