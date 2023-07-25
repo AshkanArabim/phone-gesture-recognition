@@ -17,7 +17,7 @@ The `ipynb` scripts are meant to be run on Google Colab connected to Google Driv
 1. `csi_data_all`: stores all dataset folders
     1. `csi_data_xx`: contains a folder for each of the gestures used in data collection
         1. `gesture`
-            1. `gesture_xxx.pcap`: raw `pcap` files extracted from the smartphone. These are turned into numpy arrays using the `csiread` Python package. Take a look at our scripts, or their GitHub repo.
+            1. `gesture_xxx.pcap`: raw `pcap` files extracted from the smartphone. These are turned into numpy arrays using the `csiread` Python package. Take a look at our scripts, or "csiread"'s GitHub repo.
     2. `csi_numpy`: *generated automatically by model training scripts*: contains one `.npy` file for any dataset accessed by model training scripts. These files are generated because it takes forever to load many small files from Google Drive. All contents use preprocessing v3.
     4. `csi_numpy_unchopped`: *also generated* contains data that is not trimmed to 20 packets (hence, has 50 packets per sample).
     5. `csi_numpy_vX`: *generated* same as above, but data is preprocessed using vX method. (X is a number starting from 4)
