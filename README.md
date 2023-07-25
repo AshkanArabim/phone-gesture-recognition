@@ -28,6 +28,9 @@ The `ipynb` scripts are meant to be run on Google Colab connected to Google Driv
 ### Bash scripts
 For the Bash scripts, they are intended to either run on a linux machine (or VM), or on a rooted android smartphone.
 
+## Datasets
+Most of the data we used for testing our models can be found [here](https://www.kaggle.com/datasets/ashkanarabi/nexus-5-csi-hand-gestures).
+
 ## Final Words
 We would be very surprised if anyone starts using these scripts and gets them to work on their own. If anything is wrong **please reach out!** 
 
