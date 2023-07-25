@@ -31,10 +31,11 @@ For the Bash scripts, they are intended to either run on a linux machine (or VM)
 ## Datasets
 Most of the data we used for testing our models can be found [here](https://www.kaggle.com/datasets/ashkanarabi/nexus-5-csi-hand-gestures).
 
+## Live Script
+In order to run the live script, follow instructions in the "Polished Nexus5 Setup Tips" document.
+
 ## Final Words
 We would be very surprised if anyone starts using these scripts and gets them to work on their own. If anything is wrong **please reach out!** 
 
-## Live Script
-In order to run the live script, follow instructions in the "Polished Nexus5 Setup Tips" document.
 
 Feel free to contact Ashkan (ashkan.arabim@gmail.com) or Michael (mjstraus2304@gmail.com) with any questions.
