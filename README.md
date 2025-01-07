@@ -1,6 +1,6 @@
 # Scripts used for "Phone-based CSI Hand Gesture Recognition with Lightweight Image-Classification Model"
 
-**The link to the paper will be provided once it is published.**
+Link to paper: https://dl.acm.org/doi/10.1145/3565287.3617613
 
 These are all the scripts we (Ashkan Arabi and Michael Straus) wrote and used during our Summer 2023 research experience (REU) at Temple University. 
 
